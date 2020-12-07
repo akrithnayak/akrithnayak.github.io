@@ -1,0 +1,101 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#background {
+    background: url("../img/back.jpg") no-repeat center / cover;
+    height: 100%;
+    width: 100%;
+}
+
+.center {
+    position: relative;
+    padding-top: 150px;
+}
+
+.content > .center {
+    position: relative;
+    padding-top: 10%;
+}
+
+.center.skill {
+    position: relative;
+    padding-top: 80px;
+}
+
+.line {
+    padding-bottom: 40px;
+}
+.center.skill > h3{
+    text-decoration-line: underline;
+}
+
+.line-style {
+    margin: 15px auto 25px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 4px;
+}
+
+.active {
+    color: rgb(174, 4, 241) !important;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text-right {
+    text-align: center;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#image {
+    padding: 10px
+}
+
+#menu{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    padding: 0;
+}
+
+#background > .center {
+    max-width: 660px;
+}
+
+hr {
+    margin: 15px auto 25px;
+    padding: 0;
+    border: 0;
+    border-top: solid 4px;
+}
+
+.skills {
+    padding-bottom: 20px;
+}
+
+
+
+footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color: #9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
